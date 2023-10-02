@@ -176,9 +176,6 @@ test("Get total review count with cookies", async ({ browser }) => {
     // Output the review count to the console.
     console.log(`Total Review Count: ${reviewCount}`);
 
-    // You can now use the reviewCount as needed in your test.
-
-    // Expectations or further actions can be added here.
   } catch (error) {
     console.error("Error:", error);
   } finally {
